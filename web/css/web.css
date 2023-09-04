@@ -38,12 +38,31 @@
     text-transform: uppercase;
     text-decoration: none;
     }
-    
-    
+    header .brand2{
+      color: #fefefe;
+      font-size: 1.5em;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: none;
+    }  
+
+    header{
+      z-index: 999;
+      position: absolute;
+      top: 0px;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 200px;
+      transition: 0.5s ease;
+      background-color: #6c4d22;
+      }
+
     header .navigation{
     position: relative;
     }
-    
     
     header .navigation .navigation-items a{
     position: relative;
