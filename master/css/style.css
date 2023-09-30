@@ -10158,7 +10158,9 @@ textarea {
   font-family: 'Courier New', Courier, monospace;
 }
 .media-entry .date {
-  font-size: 12px; }
+  font-size: 12px;
+  font-family: 'Inter';
+}
 
 .media-entry:hover .more .label {
   left: 0;
@@ -10169,7 +10171,9 @@ textarea {
   border-color: #f17945; }
 
 .media-entry p {
-  font-size: 14px; }
+  font-size: 14px ;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .contact-info i {
   font-size: 20px;
